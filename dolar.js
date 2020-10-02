@@ -28,4 +28,4 @@ for (let index = 2; index < 3; index++) {
 
 }
 console.log(" " + dolar+ hasil+dolar);
-console.log("  " + dolar);
+console.log("  " + dolar); 
