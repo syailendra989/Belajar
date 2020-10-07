@@ -33,7 +33,7 @@ console.log("  " + dolar);
 
 
 //cepat 
-var baris=10;
+var baris=16;
 var polaBintang= "*";
 var polaSamaDengan= "=";
 var spasi =  "";
@@ -48,7 +48,9 @@ for(let index = baris; index > 0; index--){
     for (let index2 = jmplhcell; index2 > 1; index2--){
         if ((index2 %2)==0){
          hasil = hasil.concat(polaSamaDengan);
-        } else{
+        }else if((index2 /1)==jmplhcell){
+          hasil = hasil.concat(dolar);
+        }else{
          hasil = hasil.concat(polaBintang);
         } 
    
